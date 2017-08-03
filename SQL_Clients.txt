@@ -1,0 +1,7 @@
+INSERT INTO `Client`(`nom`, `age`) VALUES ("Martin","37"),
+("Strome","28"),
+("Gilbert","59"),
+("Ali","51"),
+("Macron","40"),
+("Matthias","24"),
+("Goura","71");

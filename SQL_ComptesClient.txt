@@ -1,0 +1,17 @@
+CREATE TABLE ComptesClient
+(
+idClient int NOT NULL,
+montant varchar(40) NOT NULL,
+decoverteAutorise boolean NOT NULL,
+plafondDecouvert double(10) NOT NULL,
+PRIMARY KEY LogIN,
+);
+
+INSERT INTO `comptesclient`(`idClient`, `montant`, `decouvertAutorise`, `plafondDecouvert`) VALUES (1,250,0,0),
+(2,1375,1,450),
+(3,9750,0,1000),
+(4,5240,1,1000),
+(5,15500,1,2500),
+(6,-150,1,450),
+(7,490,0,0),
+(8,1500,1,450);
